@@ -229,7 +229,7 @@ var data = [
   // Output the results in the we browser console
   
   console.log('Total:', salesOnProfitMonths);
-  console.log('Average change : ', avgOfProfitAndLoss);
+  console.log('Average change : ', avgOfProfitAndLoss.toFixed(2));
   console.log('Greatest increase in profits: ', maxMonth);
   console.log('Greatest decrease in losses: ', minMonth);
 
